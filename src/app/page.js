@@ -128,7 +128,7 @@ export default function Home() {
                       alignItems: "center",
                     }}
                   >
-                    <Image
+                    <img
                       loading="lazy"
                       width="50"
                       src={option.product_image_s}
@@ -271,7 +271,7 @@ export default function Home() {
                           alignItems: "center",
                         }}
                       >
-                        <Image
+                        <img
                           loading="lazy"
                           width="90"
                           src={product.product_image_s}
