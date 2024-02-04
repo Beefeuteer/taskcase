@@ -113,7 +113,7 @@ export default function Home() {
               console.log("reason", reason);
             }}
             renderOption={(props, option) => (
-              <Box
+      /*         <Box
                 component="li"
                 sx={{ "& > img": { mr: 2, flexShrink: 0 } }}
                 {...props}
@@ -128,12 +128,12 @@ export default function Home() {
                       alignItems: "center",
                     }}
                   >
-                   {/*  <Image
+                   { <Image
                       loading="lazy"
                       width="50"
                       src={option.product_image_s}
                       alt=""
-                    /> */}
+                    />}
                   </Grid>
                   <Grid item xs={10}>
                     <Typography className="font-bold text-md" variant="body2">
@@ -170,7 +170,7 @@ export default function Home() {
                     </Typography>
                   </Grid>
                 </Grid>
-              </Box>
+              </Box> */
             )}
           />
         </Box>
