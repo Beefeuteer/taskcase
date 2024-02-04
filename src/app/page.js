@@ -128,12 +128,12 @@ export default function Home() {
                       alignItems: "center",
                     }}
                   >
-                    <img
+                   {/*  <Image
                       loading="lazy"
                       width="50"
                       src={option.product_image_s}
                       alt=""
-                    />
+                    /> */}
                   </Grid>
                   <Grid item xs={10}>
                     <Typography className="font-bold text-md" variant="body2">
@@ -271,12 +271,12 @@ export default function Home() {
                           alignItems: "center",
                         }}
                       >
-                        <img
+                  {/*       <Image
                           loading="lazy"
                           width="90"
                           src={product.product_image_s}
                           alt=""
-                        />
+                        /> */}
                       </TableCell>
                       <TableCell align="center">
                         <Typography className="font-bold">
