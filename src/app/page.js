@@ -131,7 +131,7 @@ export default function Home() {
                     <Image
                       loading="lazy"
                       width="50"
-                      src={'/nextjs-github-pages/'+option.product_image_s}
+                      src={option.product_image_s}
                       alt=""
                     />
                   </Grid>
@@ -274,7 +274,7 @@ export default function Home() {
                         <Image
                           loading="lazy"
                           width="90"
-                          src={'/nextjs-github-pages/'+product.product_image_s}
+                          src={product.product_image_s}
                           alt=""
                         />
                       </TableCell>
