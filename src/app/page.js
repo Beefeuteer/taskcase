@@ -26,6 +26,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import * as React from "react";
 import { useState } from "react";
 import dataSet from "../products/data";
+import Image from "next/image";
 
 export default function Home() {
   const [data, setData] = useState(dataSet.items);
@@ -127,10 +128,10 @@ export default function Home() {
                       alignItems: "center",
                     }}
                   >
-                    <img
+                    <Image
                       loading="lazy"
                       width="50"
-                      src={option.product_image_s}
+                      src={'/nextjs-github-pages/'+option.product_image_s}
                       alt=""
                     />
                   </Grid>
@@ -270,10 +271,10 @@ export default function Home() {
                           alignItems: "center",
                         }}
                       >
-                        <img
+                        <Image
                           loading="lazy"
                           width="90"
-                          src={product.product_image_s}
+                          src={'/nextjs-github-pages/'+product.product_image_s}
                           alt=""
                         />
                       </TableCell>
